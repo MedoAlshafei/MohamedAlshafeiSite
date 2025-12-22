@@ -64,15 +64,87 @@
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
-    line-height: 63px;
-    /* or 115% */
+    line-height: 76px;
     text-align: center;
 
     /* Primary Gradient */
-    background: linear-gradient(120.69deg, #FF8660 71.79%, #9A33FF 95.51%);
+    background: linear-gradient(150.69deg, #FF8660 43.79%, #9A33FF 99.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
+
+}
+
+/* About Me Section */
+.aboutMe {
+    left: 0.9%;
+    right: 1.19%;
+    top: 0%;
+    bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: auto;
+    max-width: 1000px;
+    height: auto;
+    margin: 20px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    text-align: center;
+    line-height: 35px;
+    color: #757575;
+}
+
+.btnContact {
+    /* Action Buttons */
+
+    position: absolute;
+    width: 417px;
+    height: 64px;
+    left: 496px;
+    top: 772px;
+
+}
+
+.btnContact .Rectangle {
+    /* Rectangle 1 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0%;
+    right: 53.24%;
+    top: 0%;
+    bottom: 0%;
+
+    text-align: center;
+
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+
+}
+
+.btnContact .RectangleOutline {
+    /* Rectangle 2 */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 51.08%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    text-align: center;
+    color: #FFFFFF;
+
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
 
 }
